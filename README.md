@@ -9,7 +9,9 @@
 * 上拉加载
 
 截图:
+<center class="half">
+        <img src="img/day1img1.png" height="538" width="342"></img>
 
-<img src="img/day1img1.png" height="538" width="342"></img>
+	<img src="img/day1img2.png" height="463" width="296"></img>
+</center>
 
-<img src="img/img2.png" height="463" width="296"></img>
