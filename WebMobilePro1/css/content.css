@@ -1,0 +1,128 @@
+html {
+    background-color: #f8f8f8;
+}
+
+.header {
+    height: 40px;
+    width: 100%;
+    background-color: #6170b1;
+    padding-left: 30px;
+    box-sizing: border-box;
+    
+}
+@media only screen and (min-width: 100px) and (max-width: 320px) {
+	.header-content{
+		display: none;/*隐藏*/
+	}
+	.header-menu{
+		display: inline-block;/*隐藏*/
+	}
+}
+@media only screen and (min-width:321px ) {
+	.header-content{
+		display: inline-block;/*隐藏*/
+	}
+	.header-menu{
+		display: none;/*隐藏*/
+	}
+}
+
+	.header-item{
+		list-style-type: none;
+    		float: left;
+    		color: #D1DFB7;
+    		margin-right: 20px;
+    		line-height: 40px;
+    		font-size: 16px;
+    		/*可点击光标*/
+    		cursor: pointer;
+	}
+	
+	.header-content .header-item:nth-child(2){
+		color: #fff;
+        font-size: px2rem(17px);
+	}	
+	
+	.header-menu{
+		float: right;
+        margin-right: 20px;
+        margin-top: 6px;
+        line-height: 40px;
+        width: 28px;
+                
+	}
+	
+.banner-content {
+	position: relative;
+}
+.banner-img {
+	display: block;
+	width: 100%;
+	height: auto;
+	/*padding-bottom:46%;*/
+}
+.banner-title {
+	position: absolute;
+    left: 15px;
+    bottom: 15px;
+    font-size: 17px;
+    color: #FFFFFF;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+/*列表*/
+
+/*li*/
+.news-item{
+	box-sizing: border-box;
+	
+	height: 90px;
+	width: 100%;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.news-content {
+	position: relative;
+	height: 100%;
+	border-bottom: 1px solid #e5e5e5;
+}
+.news-img {
+	display: block;
+	float: left;
+	padding-top: 10px;
+	padding-right: 10px;
+	width: 100px;
+	height: 70px;
+}
+
+.news-title {
+	padding-top: 10px;
+	font-size: 14px;
+	letter-spacing: 1px;
+	overflow: hidden;  
+	display: -webkit-box;  
+	-webkit-line-clamp: 2;  /*两行最大*/
+	-webkit-box-orient: vertical; 
+}
+.news-time {
+	position: absolute;
+	bottom: 15px;
+	left: 110px;
+	font-size: 12px;
+}
+.news-num {
+	position: absolute;
+	bottom: 15px;
+	right: 20px;
+	font-size: 12px;
+}
+
+#footer{
+	height: 30px;
+	width: 100%;
+}
+.foot-more{
+	display: block;
+	line-height: 30px;
+	text-align: center;
+}
