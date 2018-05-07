@@ -10,6 +10,6 @@
 
 截图:
 <div style="position: relative;">
-		<img style="float: left;width: 342px;height=538;” src="img/day1img1.png" class="banner-img" />
-		<img style="float: left;width: 296px;height=463;” src="img/day1img2.png" class="banner-img" />
+		<img style="float: left;width: 342px;height=538;" src="img/day1img1.png" class="banner-img" />
+		<img style="float: left;width: 296px;height=463;" src="img/day1img2.png" class="banner-img" />
 	</div>
