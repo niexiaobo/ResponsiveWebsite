@@ -9,7 +9,6 @@
 * 上拉加载
 
 截图:
-<div style="position: relative;">
-		<img style="float: left;width: 342px;height=538;" src="img/day1img1.png" class="banner-img" />
-		<img style="float: left;width: 296px;height=463;" src="img/day1img2.png" class="banner-img" />
-	</div>
+<img src="img/day1img1.png" height="538" width="342"></img>
+<img src="img/day1img2.png" height="463" width="296"></img>
+
