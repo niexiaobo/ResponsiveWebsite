@@ -9,6 +9,6 @@
 * 上拉加载
 
 截图:
-<img src="img/day1img1.png" height="538" width="342"></img>
+<img src="img/day1img1.png" height=“500” width="300”></img>
 <img src="img/day1img2.png" height="463" width="296"></img>
 
